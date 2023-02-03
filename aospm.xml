@@ -6,6 +6,13 @@
 
   <remote name="vknecht" fetch="https://github.com/vknecht" />
 
+  <remote  name="github"   fetch="https://github.com/" />
+  <remote  name="glodroid" fetch="https://github.com/glodroid/" />
+  <remote  name="gnome"    fetch="https://github.com/GNOME/" />
+  <remote  name="mbroadband" fetch="https://gitlab.freedesktop.org/mobile-broadband" />
+  <remote  name="dbus"       fetch="https://gitlab.freedesktop.org/dbus" />
+  <remote  name="libcamera"  fetch="https://git.libcamera.org/libcamera" />
+
   <!-- SDM845 generic device repo -->
   <project path="device/generic/sdm845" name="android_device_generic_sdm845" revision="main" remote="aospm" groups="default" />
 
