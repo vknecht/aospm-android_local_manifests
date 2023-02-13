@@ -23,6 +23,8 @@
   <project path="device/generic/msm8916" name="android_device_generic_msm8916" revision="main" remote="vknecht" groups="default" />
   <project path="device/generic/msm8939" name="android_device_generic_msm8939" revision="main" remote="vknecht" groups="default" />
 
+  <project path="glodroid/vendor/libudev-zero"    remote="vknecht" name="glodroid_forks.git" groups="glodroid" revision="refs/heads/libudev-zero-v0.8.2-msm88916" />
+
   <project path="glodroid/configuration"        remote="glodroid"    name="glodroid_configuration.git"     groups="glodroid" revision="refs/heads/next" />
 
   <!-- modem components (vendor) -->
@@ -38,7 +40,6 @@
   <!-- other components (vendor) -->
   <project path="glodroid/vendor/aospext"         remote="glodroid" name="aospext.git"        groups="glodroid" revision="refs/heads/next" />
   <project path="glodroid/vendor/iio-sensors-hal" remote="glodroid" name="glodroid_forks.git" groups="glodroid" revision="refs/tags/iio-sensors-hal-v0.7.4" />
-  <project path="glodroid/vendor/libudev-zero"    remote="glodroid" name="glodroid_forks.git" groups="glodroid" revision="refs/tags/libudev_zero-v0.8.2" />
 
   <project path="glodroid/compilers/rust/1.65.0"  remote="glodroid" name="linaro_gcc_prebuilts.git" groups="glodroid" revision="refs/tags/rust-v1.65.0-linux-x86" />
 
