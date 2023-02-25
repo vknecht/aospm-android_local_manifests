@@ -43,7 +43,7 @@
   <project path="glodroid/vendor/glib/subprojects/proxy-libintl" remote="github"  name="frida/proxy-libintl.git" groups="glodroid" revision="refs/tags/0.4" />
 
   <!-- other components (vendor) -->
-  <project path="glodroid/vendor/aospext"         remote="glodroid" name="aospext.git"        groups="glodroid" revision="8f36908986b682ac5db3510446653ec8ce4acbd7" />
+  <project path="glodroid/vendor/aospext"         remote="glodroid" name="aospext.git"        groups="glodroid" revision="ded2ae0d2a5cb1dc23ab5ccfcc7b30f237e33f48" />
 
   <project path="glodroid/compilers/rust/1.65.0"  remote="glodroid" name="linaro_gcc_prebuilts.git" groups="glodroid" revision="refs/tags/rust-v1.65.0-linux-x86" />
 
