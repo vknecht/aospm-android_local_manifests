@@ -45,6 +45,14 @@
   <!-- other components (vendor) -->
   <project path="glodroid/vendor/aospext"         remote="glodroid" name="aospext.git"        groups="glodroid" revision="ded2ae0d2a5cb1dc23ab5ccfcc7b30f237e33f48" />
 
+  <remove-project name="platform/external/mesa3d" />
+  <remove-project name="platform/external/drm_hwcomposer" />
+
+  <!-- gpu+display components (vendor) -->
+  <project path="glodroid/vendor/minigbm"         remote="aosp" name="platform/external/minigbm"        groups="glodroid" revision="dd9c86425b040a6f0795e4a27f788985d34ece66" />
+  <project path="glodroid/vendor/drm_hwcomposer"  remote="aosp" name="platform/external/drm_hwcomposer" groups="glodroid" revision="2bf68c374976d0a7a0e71c1843cbeae2a3210b74" />
+  <project path="glodroid/vendor/mesa3d"          remote="aosp" name="platform/external/mesa3d"         groups="glodroid" revision="refs/tags/upstream-mesa-23.0.0" />
+
   <project path="glodroid/compilers/rust/1.65.0"  remote="glodroid" name="linaro_gcc_prebuilts.git" groups="glodroid" revision="refs/tags/rust-v1.65.0-linux-x86" />
 
 </manifest>
