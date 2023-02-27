@@ -14,6 +14,7 @@
   <remote  name="mbroadband" fetch="https://gitlab.freedesktop.org/mobile-broadband" />
   <remote  name="dbus"       fetch="https://gitlab.freedesktop.org/dbus" />
   <remote  name="libcamera"  fetch="https://git.libcamera.org/libcamera" />
+  <remote  name="rsglobal"   fetch="https://github.com/rsglobal" />
 
   <!-- SDM845 generic device repo -->
   <project path="device/generic/sdm845" name="android_device_generic_sdm845" revision="main" remote="aospm" groups="default" />
@@ -32,7 +33,7 @@
   <project path="glodroid/configuration"        remote="glodroid"    name="glodroid_configuration.git"     groups="glodroid" revision="refs/heads/next" />
 
   <!-- modem components (vendor) -->
-  <project path="glodroid/vendor/mm-radio"        remote="glodroid"    name="mm-radio.git"     groups="glodroid" revision="refs/tags/v0.0.1" />
+  <project path="glodroid/vendor/mm-radio"        remote="rsglobal"    name="mm-radio.git"     groups="glodroid" revision="refs/heads/fixes-2023w08" />
   <project path="glodroid/vendor/mm-radio/vendor" remote="glodroid"    name="mm-radio.git"     groups="glodroid" revision="refs/tags/cargo-deps-2023w07" clone-depth="1" />
   <project path="glodroid/vendor/dbus"            remote="dbus"        name="dbus.git"         groups="glodroid" revision="refs/tags/dbus-1.15.2" />
   <project path="glodroid/vendor/libqmi"          remote="mbroadband"  name="libqmi.git"       groups="glodroid" revision="refs/tags/1.33.4-dev" />
