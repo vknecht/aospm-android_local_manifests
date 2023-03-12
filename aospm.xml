@@ -24,7 +24,6 @@
   <project path="external/vibrator-ff" name="external_vibrator-ff" revision="main" remote="aospm" groups="default" />
 
   <project path="device/generic/msm8916" name="android_device_generic_msm8916" revision="main" remote="vknecht" groups="default" />
-  <project path="device/generic/msm8939" name="android_device_generic_msm8939" revision="main" remote="vknecht" groups="default" />
 
   <project path="glodroid/vendor/libudev-zero"    remote="vknecht" name="glodroid_forks.git" groups="glodroid" revision="refs/heads/libudev-zero-v0.8.2-msm88916" />
 
