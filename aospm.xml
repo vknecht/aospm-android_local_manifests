@@ -16,6 +16,10 @@
   <remote  name="libcamera"  fetch="https://git.libcamera.org/libcamera" />
   <remote  name="rsglobal"   fetch="https://github.com/rsglobal" />
 
+  <!-- workaround Bluetooth assert on vendor capabilities -->
+  <remove-project name="platform/packages/modules/Bluetooth" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" revision="msm8916-13r41" remote="vknecht" groups="default" />
+
   <!-- SDM845 generic device repo -->
   <project path="device/generic/sdm845" name="android_device_generic_sdm845" revision="main" remote="aospm" groups="default" />
 
